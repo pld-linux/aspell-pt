@@ -20,7 +20,7 @@ Portuguese dictionaries (i.e. word lists) for aspell.
 %description -l pl
 Portugalskie s³owniki (listy s³ów) dla aspella.
 
-%description pt_br -l pt_BR
+%description -l pt_BR
 Dicionários da língua portuguesa para o verificador ortográfico
 aspell.
 
