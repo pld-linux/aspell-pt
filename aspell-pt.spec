@@ -1,5 +1,5 @@
 Summary:	Portuguese dictionaries for aspell
-Summary(pl):	Portugalskie s這wniki dla aspella
+Summary(pl):	S這wniki portugalskie dla aspella
 Summary(pt_BR):	Dicion嫫io de portugu瘰 para o aspell
 Name:		aspell-pt
 Version:	0.50
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Portuguese dictionaries (i.e. word lists) for aspell.
 
 %description -l pl
-Portugalskie s這wniki (listy s堯w) dla aspella.
+S這wniki (listy s堯w) portugalskie dla aspella.
 
 %description -l pt_BR
 Dicion嫫ios da l璯gua portuguesa para o verificador ortogr塻ico
