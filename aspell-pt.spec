@@ -10,6 +10,7 @@ Group:		Applications/Text
 Source0:	http://aspell.sourceforge.net/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell
+BuildRequires:	pspell-devel
 Requires:	aspell
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -37,14 +38,12 @@ rm -rf $RPM_BUILD_ROOT
 mv -f doc/README{,.dicts}
 mv -f doc/BR/README{,.pt_BR}
 
-gzip -9nf README Copyright doc/README.* doc/BR/README.*
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz doc/*.gz doc/BR/*.gz
+%doc README Copyright doc/README.* doc/BR/README.*
 %{_libdir}/aspell/*
 %{_datadir}/aspell/*
 %{_datadir}/pspell/*
