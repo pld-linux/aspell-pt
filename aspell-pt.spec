@@ -4,6 +4,7 @@ Name:		aspell-pt
 Version:	0.0
 %define	subv	3
 Release:	1
+Epoch:		1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://aspell.sourceforge.net/%{name}-%{version}-%{subv}.tar.bz2
