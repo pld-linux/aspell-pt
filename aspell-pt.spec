@@ -4,7 +4,7 @@ Summary(pt_BR):	Dicionário de português para o aspell
 Name:		aspell-pt
 Version:	0.50
 %define	subv	2
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
