@@ -1,6 +1,6 @@
 Summary:	Portuguese dictionaries for aspell
-Summary(pl.UTF-8):   Portugalskie słowniki dla aspella
-Summary(pt_BR.UTF-8):   Dicionário de português para o aspell
+Summary(pl.UTF-8):	Portugalskie słowniki dla aspella
+Summary(pt_BR.UTF-8):	Dicionário de português para o aspell
 Name:		aspell-pt
 Version:	0.50
 %define	subv	2
