@@ -4,7 +4,7 @@ Summary(pt_BR.UTF-8):	Dicionário de português para o aspell
 Name:		aspell-pt
 Version:	0.50
 %define	subv	2
-Release:	5
+Release:	6
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
@@ -41,8 +41,10 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-mv -f doc/README{,.dicts}
-mv -f doc/BR/README{,.pt_BR}
+%{__mv} $RPM_BUILD_ROOT%{_prefix}/lib/aspell/{portugu$'\352's,português}.alias
+
+%{__mv} doc/README{,.dicts}
+%{__mv} doc/BR/README{,.pt_BR}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
